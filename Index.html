@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Netflix Clone</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ background:#111;
+ color:white;
+ font-family:Arial;
+}
+header{
+ padding:18px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+}
+.logo{
+ color:red;
+ font-size:27px;
+ font-weight:bold;
+}
+.banner{
+ padding:65px 20px;
+ background:linear-gradient(90deg,#000,transparent),
+ url('https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg') center/cover;
+}
+.banner h1{font-size:32px}
+button{
+ padding:10px 20px;
+ border:0;
+ border-radius:4px;
+ font-weight:bold;
+}
+h2{margin-left:15px}
+.movies{
+ display:flex;
+ overflow-x:auto;
+ gap:12px;
+ padding:15px;
+}
+.movies img{
+ width:125px;
+ height:180px;
+ object-fit:cover;
+ border-radius:5px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">NETFLIX</div>
+<div>Home | Movies</div>
+</header>
+
+<section class="banner">
+<h1>Unlimited Movies</h1>
+<p>Watch your favourite movies and shows.</p>
+<button>▶ Play</button>
+<button>ℹ More Info</button>
+</section>
+
+<h2>Trending Now</h2>
+<div class="movies">
+<img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg">
+<img src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg">
+<img src="https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg">
+<img src="https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg">
+</div>
+
+<h2>Popular Movies</h2>
+<div class="movies">
+<img src="https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg">
+<img src="https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg">
+<img src="https://image.tmdb.org/t/p/w500/5KCVkau1HEl7ZzfPsKAPM0sMiKc.jpg">
+<img src="https://image.tmdb.org/t/p/w500/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg">
+</div>
+
+</body>
+</html>
